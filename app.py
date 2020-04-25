@@ -145,7 +145,7 @@ def processRequest(req):
 
         headers = {
             'x-rapidapi-host': "covid-19-data.p.rapidapi.com",
-            'x-rapidapi-key': "e468d98724msh7380b7960df4c02p18c627jsnffbdc0763d43"
+            'x-rapidapi-key': "API-KEY"
             }
 
         response = requests.request("GET", url, headers=headers, params=querystring)
